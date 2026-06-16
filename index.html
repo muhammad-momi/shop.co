@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet"> 
+    <title>shop-co</title>
+    <script type="module">
+      import { createIcons, icons } from 'lucide';
+      createIcons({ icons });
+    </script>
+  </head>
+  <body>
+    <div class="flex bg-black">
+    <div class="flex justify-center items-center w-full h-9.5 bg-black text-white text-[14px]"><p>Sign up and get 20% off to your first order.</p><a href="" class="ml-2 underline">Sign Up Now</a></div><div class="bg-black mr-15"><i data-lucide="x" class="text-white"></i></div></div>
+    <div class="flex justify-center items-center">
+      <div class="flex mt-6 gap-8">
+      <div class="logo text-[32px]"><h1>SHOP.CO</h1></div>
+      <div class="flex gap-8 mt-2">
+        <div class="flex"><p>Shop</p><i data-lucide="chevron-down" class="mt-0.5"></i></div>
+        <div><p>On Sale</p></div>
+        <div><p>New Arrivals</p></div>
+        <div><p>Brands</p></div>
+      </div>
+      <div class="flex">
+        <section class="relative">
+          <i data-lucide="search" class="absolute text-gray-400 mt-2 ml-2"></i>
+          <input type="text" placeholder="search the product..." class="flex items-center placeholder-black-500 w-170 pl-10 -mt-2.5 h-15 bg-gray-100 rounded-4xl ">
+        </section></div>
+        <div class="flex gap-5">
+        <i data-lucide="shopping-cart" class="mt-2"></i>
+        <i data-lucide="circle-user-round" class="mt-2"></i>
+        </div>
+      </div>
+    </div>
+</html>
